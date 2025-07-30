@@ -3237,3 +3237,15 @@ textarea:focus{
   font-size: 20px;
   margin-bottom: 30px;
 }
+
+
+.whatsapp-float {
+  background-color: #25D366;
+  position: fixed;
+  bottom: 80px; /* Lo coloca en la parte superior */
+  right: 10px; /* Lo alinea a la derecha */
+  z-index: 1000; /* Asegura que esté por encima del contenido */
+  border-radius: 50px; /* Hace el botón redondo */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Agrega sombra */
+  padding: 6px;
+}
